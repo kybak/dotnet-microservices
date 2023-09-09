@@ -1,0 +1,9 @@
+﻿global using Polly;
+global using Polly.Retry;
+global using RabbitMQ.Client;
+global using RabbitMQ.Client.Events;
+global using RabbitMQ.Client.Exceptions;
+global using MicroserviceProject.BuildingBlocks.EventBus;
+global using MicroserviceProject.BuildingBlocks.EventBus.Extensions;
+global using System.Net.Sockets;
+global using System.Text;
